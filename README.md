@@ -22,7 +22,7 @@ Program to implement the linear regression using gradient descent.
 Developed by: Abinav Sankar S
 RegisterNumber: 212222040002
 */
-```
+
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
@@ -48,6 +48,8 @@ x1_scaled=scaler.fit_transform(x1)
 y1_scaled=scaler.fit_transform(y)
 print(x)
 print(x1_scaled)
+```
+
 
 
 ## Output:
